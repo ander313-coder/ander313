@@ -1,3 +1,6 @@
 git add . 
 git commit -m "коммент"
 git push origin
+
+git commit -a -m "если новых файлов не добавлял, то git add . не надо"
+git push origin
