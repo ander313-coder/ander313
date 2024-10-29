@@ -1,0 +1,38 @@
+h1 {
+
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    color: black;
+    font-size: 2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid rgb(174, 174, 174);
+}
+
+th {
+
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    color: white;
+    font-size: 1em;
+    background-color: green;
+    align-items: center;
+    border: 1px solid rgb(174, 174, 174);
+}
+
+tr {
+
+    font-family: "Roboto", system-ui;
+    font-style: normal;
+    color: black;
+    font-size: 1em;
+}
+
+tr:hover {
+    background: gray;
+}

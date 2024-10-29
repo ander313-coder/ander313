@@ -1,0 +1,63 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.target {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 105px;
+    top: 105px;
+    background: blue;
+    border-radius: 50%;
+
+}
+
+.arrow1 {
+
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    left: 110px;
+    top: 30px;
+    background: blue;
+    animation: sec 60s infinite;
+    transform-origin: 0 80px;
+
+}
+
+@keyframes sec {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(3600deg)
+    }
+}
+
+.arrow2 {
+
+    position: absolute;
+    width: 2px;
+    height: 60px;
+    left: 110px;
+    top: 50px;
+    background: red;
+    animation: min 360s infinite;
+    transform-origin: 0 60px;
+
+}
+
+@keyframes min {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(3600deg)
+    }
+}

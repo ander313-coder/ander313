@@ -1,0 +1,219 @@
+body {
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+}
+
+.container {
+    display: grid;
+    gap: 30px;
+    justify-items: center;
+    margin: auto;
+    width: 960px;
+
+
+    .header {
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-txt {
+        color: black;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .menu-txt:hover {
+
+        transition: 0, 3s;
+        background-color: #0d6efd;
+        color: white;
+    }
+
+    .table {
+
+        text-align: center;
+
+
+
+    }
+
+    .table-menu {
+
+        justify-items: center;
+        width: 100%;
+
+
+    }
+
+    .table-head {
+        text-align: center;
+        font-weight: 300;
+        font-size: 36px;
+        margin: 0px;
+    }
+
+    .h1 {
+        font-weight: 400;
+        font-size: 48px;
+        margin: 0px;
+    }
+
+    .h2 {
+        font-weight: 400;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    .h2-w {
+        font-weight: 400;
+        font-size: 20px;
+        margin: 10px;
+        color: white;
+    }
+
+    .h3 {
+        font-weight: 400;
+        font-size: 24px;
+        margin: 10px;
+    }
+
+
+
+    .light-txt {
+        font-weight: 100;
+        color: gray;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    ul {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .offers {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+
+
+    }
+
+    .offer-p {
+
+        padding: 0px 16px;
+    }
+
+    .offer1 {
+        display: flex;
+        border: 0.5px solid gainsboro;
+        border-radius: 5px;
+        flex-direction: column;
+
+        height: 100%;
+        padding-bottom: 10px;
+        justify-content: center;
+
+
+    }
+
+    .offer1-item {
+
+        text-align: center;
+        border: 0.5px solid gainsboro;
+        background-color: #f8f8f8;
+        margin: 0px;
+
+
+    }
+
+    .offer1-item-blue {
+
+        text-align: center;
+        border: 0.5px solid gainsboro;
+        background-color: #0d6efd;
+        margin: 0px;
+
+
+    }
+
+    .offer1-item1 {
+
+        text-align: center;
+        padding: 16px;
+        height: 100%;
+
+    }
+
+    .offer1-item2 {
+        text-align: center;
+        font-size: 20px;
+        color: #0d6efd;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin: 8px 16px;
+
+    }
+
+    .offer1-item2:hover {
+
+        transform: scale(1.1);
+        transition: 0, 3s;
+        color: white;
+        background-color: #0d6efd;
+
+    }
+
+    .offer1-item3 {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: #0d6efd;
+        border: 1px solid;
+        border-radius: 5px;
+
+        padding: 8px 16px;
+        margin: 8px 16px;
+    }
+
+    .offer1-item3:hover {
+
+        transform: scale(1.1);
+        transition: 0, 3s;
+        color: #0d6efd;
+        background-color: white;
+
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        justify-content: center;
+
+    }
+
+    .img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        padding: 10px;
+
+    }
+
+    .img:hover {
+        filter: brightness(70%)
+    }
+
+    .tr-border-bottom {
+        border-bottom: 1px solid #0d6efd;
+        width: 100%;
+    }

@@ -1,0 +1,38 @@
+.header-bg {
+
+    background: gainsboro;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    padding: 30px;
+    color: navy;
+}
+
+body {
+
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    background-color: gainsboro;
+
+}
+
+.img {
+    width: 1100px;
+    height: auto;
+    margin: 0px 200px 0px 100px;
+}
+
+.txt {
+    margin: 40px 200px 0px 200px;
+
+}
+
+.spisok {
+    margin: 0px 200px 0px 180px;
+}
+
+.justify {
+    text-align: justify;
+}
